@@ -1,4 +1,4 @@
-package com.rmt.ISP;
+package com.rmt.SOLID.ISP;
 
 public class Woodpecker implements FLyingBirds{
     @Override

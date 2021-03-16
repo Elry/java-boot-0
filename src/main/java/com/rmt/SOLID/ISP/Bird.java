@@ -1,4 +1,4 @@
-package com.rmt.ISP;
+package com.rmt.SOLID.ISP;
 
 public interface Bird {
     void eat();

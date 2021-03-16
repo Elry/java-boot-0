@@ -1,4 +1,4 @@
-package com.rmt.DIP;
+package com.rmt.SOLID.DIP;
 
 public class PersonRepository {
   private DBConn dbConn;

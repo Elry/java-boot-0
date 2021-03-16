@@ -12,7 +12,6 @@ public class Optionals {
     nullOpStr.ifPresentOrElse(System.out::println, () -> System.out.print("Null - not found"));
 
     Optional<String> emptyOpStr = Optional.empty();
-    emptyOpStr.orElseThrow()
     emptyOpStr.ifPresentOrElse(System.out::println, () -> System.out.println("Empty - not found"));
 
     Optional<String> nullErrOpStr = Optional.of(null);

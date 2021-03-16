@@ -1,4 +1,4 @@
-package com.rmt.OCP;
+package com.rmt.SOLID.OCP;
 
 public class DiscountFantasyBook implements BookDiscount{
     @Override

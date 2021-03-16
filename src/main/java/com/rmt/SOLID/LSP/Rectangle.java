@@ -1,4 +1,4 @@
-package com.rmt.LSP;
+package com.rmt.SOLID.LSP;
 
 public class Rectangle {
     
