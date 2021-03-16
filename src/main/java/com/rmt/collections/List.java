@@ -1,12 +1,11 @@
 package com.rmt.collections;
 
-import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class List {
     public static void main(String args[]){
-        List<String> names = new ArrayList<>();
+        ArrayList<String> names = new ArrayList<>();
 
         names.add("lmao");
         names.add("ayyy");
@@ -32,7 +31,7 @@ public class List {
         
         System.out.println("Empty list?" + names.isEmpty());
         
-        names.claer();
+        names.clear();
         
         System.out.println("Empty list?" + names.isEmpty());
     }
