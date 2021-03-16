@@ -8,6 +8,6 @@ public class PersonRepository {
   }
 
   public void savePerson(Person person){
-    
+    System.out.println(dbConn);
   }
 }
