@@ -21,6 +21,9 @@ public class Ex1{
         // lambda with functional interface
         F1 a = v -> "ayyy " + v;
         System.out.println(a.getter("lmao"));
+
+        // simple recursion
+        System.out.println(fac(5));
     }
 
     // immutability
@@ -46,6 +49,14 @@ public class Ex1{
       Function<Integer, Object> getWithId = userId -> new Object();
       System.out.println(getWithId.apply(12));
       return getWithId.apply(12);
+    }
+
+    private static int factorial(int val){
+      if(val == 1){
+        return val;
+      }else{
+        return val * factorial((val - 1));
+      }
     }
 }
 
